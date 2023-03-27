@@ -1,0 +1,157 @@
+*{
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+.header-list li{
+    list-style: none;
+    float: left;
+    padding: 20px 10px;
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.header{
+    background-color:black;
+    color: white;
+    height: 60px;
+}
+
+.header-logo{
+    float: left;
+    font-size: 20px;
+    padding: 15px 30px;
+    letter-spacing: 10px;
+    font-weight: 900;
+}
+
+.myportfolio{
+    padding: 100px 80px;
+    text-align: center;
+}
+
+.copy-container h1{
+    font-size: 140px;
+}
+
+.copy-container h2{
+    font-size: 40px;
+    font-weight: lighter;
+    opacity: 0.3;
+}
+
+.copy-container span{
+    color: orange;
+    font-family: "Avenir Nex";
+}
+
+.tentang-saya{
+    height: 200px;
+    background-color: rgb(236, 231, 231);
+    padding: 10px;
+    text-align: center;
+}
+
+.tentang-saya h3{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.tentang-saya p{
+    font-size: 20px;
+}
+
+.proyek-contoh{
+    height: 350px;
+    width: 100%;
+}
+
+.proyek-contoh h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+}
+.tes{
+    display: flex;
+}
+.content-proyek{
+   text-align: center;
+   flex: auto;
+   font-size: 20px;
+}
+
+.form{
+align-items: center;
+display: flex;
+flex-direction: column;
+background-color: rgb(224, 223, 222);
+height: 600px;
+padding-top: 5%;
+}
+  
+.form-title{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.input-email{
+    align-items: center;
+    width:800px;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding:20px;
+    font-size:18px;
+    border: 1px solid rgb(255, 254, 253);
+}
+
+.input-message{
+    width:800px;
+    height:80px;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding:20px;
+    font-size:18px;
+    border: 1px solid rgb(255, 254, 253);
+}
+
+
+.kirim{
+    width:450px;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding:20px;
+    font-size:18px;
+    background-color: rgb(253, 211, 84);
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+.kirim:active{
+    background-color: #e98f08;
+}
+
+.footer{
+    background-color: grey;
+    height: 100px;
+    color:white;
+}
+
+.footer-list li{
+    list-style: none;
+    padding-top: 10px;
+    padding-right: 20px;
+    font-size: 15px;
+    opacity:0.6;
+    
+}
+
+.footer-logo{
+    float: left;
+    padding:20px;
+    letter-spacing: 5px;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.footer-list{
+    float: right;
+}
