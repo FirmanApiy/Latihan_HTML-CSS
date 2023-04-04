@@ -1,1 +1,23 @@
+@media (max-width:670px){
+.content-proyek{
+    width: 100%;
+}
+}
 
+@media (max-width:1000px){
+.content-proyek{
+    width: 50%;
+}
+}
+
+@media (max-width: 670px){
+.myportfolio{
+    width: 100%;
+    }
+    }
+
+@media (max-width:1000px){
+.myportfolio{
+    width: 50%;
+}
+}
